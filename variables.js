@@ -6,7 +6,7 @@
 
 /*******************************************************************************
  Task 1 (Variables):
- 
+
  Steps:
     1. Create three variables named 'personName', 'age', and 'isHappy', where:
         - 'personName' should hold a string value
@@ -16,23 +16,37 @@
  ********************************************************************************/
 // TODO: ADD YOUR CODE BELOW
 
+let personName = "Ali";
+let age = 22;
+let isHappy = true;
+console.log(personName);
+console.log(age);
+console.log(isHappy);
+
 /*******************************************************************************
  Task 2 (Reassigning variables):
- 
+
  Steps:
     1. Create a new variable named 'nickName' and assign the value of the 'personName' variable to the 'nickName' variable.
     2. Use console.log o output the value of 'nickName'
  *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
 
+
+let nickName = personName;
+console.log(nickName);
+
 /*******************************************************************************
  Task 3 (Naming variables):
- 
+
  Steps:
     1. Create a variable with the title of your favorite movie. How would you name such a variable?
     2. Declare a variable that stores the age of a user. What name would you choose for this variable?
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+
+let favoriteMovie = "The Shawshank Redemption";
+let userAge = 22;
 
 /*******************************************************************************
 Task 4 (String Concatenation):
@@ -48,3 +62,15 @@ Steps:
         - Print the final message to the console, including the personName in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+
+
+let msg = prompt("Enter a message for the person you just created");
+let finalMsg = msg;
+if (isHappy) {
+    finalMsg.concat("And btw, Why are you happy?");
+}
+else {
+    finalMsg.concat("And btw, Good for you. There's nothing to be happy about.");
+}
+console.log(`Dear ${personName.toUpperCase()}, here's your message: ${finalMsg}.`);
+
