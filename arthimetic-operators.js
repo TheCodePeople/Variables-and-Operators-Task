@@ -18,7 +18,13 @@ Task 1:
    7. Use console.log() to print the value of variable e to the console. (it should result 105.667)
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
-
+let a, b, c, d, e ;
+a =  4 + 6; 
+b= 10 * 5; 
+c= 17%3; 
+d= b-a;
+e= a+b+c+d;
+console.log(e); 
 /*******************************************************************************
  Task 2:
    1. Subtract two numbers and log the result to the console.   
@@ -28,3 +34,5 @@ Task 1:
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+
+
