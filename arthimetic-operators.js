@@ -34,5 +34,24 @@ console.log(e);
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+console.log(5-3);
+
+console.log(1*3*5);
+
+let volume = 3*5*7;
+
+console.log(volume);
+
+
+let price = 9.99;
+
+let discount = 0.20;
+
+let finalPrice = price - (price * discount);
+
+console.log(finalPrice);
+
+console.log(Math.round(finalPrice));
+
 
 
