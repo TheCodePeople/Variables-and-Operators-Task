@@ -18,7 +18,13 @@ Task 1:
    7. Use console.log() to print the value of variable e to the console. (it should result 105.667)
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
-
+let a = 6+4;
+let b = 10*5;
+let c = 17%3;
+let d = b-a
+;
+let e = a+b+c+d;
+console.log(e);
 /*******************************************************************************
  Task 2:
    1. Subtract two numbers and log the result to the console.   
@@ -28,3 +34,14 @@ Task 1:
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+console.log(15 - 7);
+let MultiplyFourNumbers = 3 * 5 * 7 * 9;
+console.log(MultiplyFourNumbers);
+console.log(3*5*7);
+let price = 9.99;
+let discount = 0.2 ;
+let discountPrice = 9.99 - 0.2;
+console.log(discountPrice);
+let number = 20 / 5;
+let round3 = Math.round(number);
+console.log(round3);
