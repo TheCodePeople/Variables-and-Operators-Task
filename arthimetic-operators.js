@@ -18,6 +18,21 @@ Task 1:
    7. Use console.log() to print the value of variable e to the console. (it should result 105.667)
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let a;
+let b;
+let c;
+let d;
+let e;
+a = 4 + 6;
+b = 10 * 5;
+c = 17 % 3;
+console.log(a);
+console.log(b);
+console.log(c);
+d = b - a;
+console.log(d);
+e = a + b + c + d;
+console.log(e);
 
 /*******************************************************************************
  Task 2:
@@ -28,3 +43,14 @@ Task 1:
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let x = 10 - 5;
+console.log(x);
+let y = 1 * 3 * 5 * 7;
+console.log(y);
+let rectangular = 3 * 5 * 7;
+console.log(rectangular);
+let price = 9.99;
+let discount = 0.2;
+console.log(price * (price - discount));
+let z = 7 / 3;
+console.log(Math.ceil(z));
