@@ -15,6 +15,13 @@
     2. Use console.log() to output the value of each variable.
  ********************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let parseonName='Qassim';
+const age=22;
+let ishappy = false ;
+
+console.log(parseonName+'  '+ ishappy+age)
+
+
 
 /*******************************************************************************
  Task 2 (Reassigning variables):
@@ -24,6 +31,8 @@
     2. Use console.log o output the value of 'nickName'
  *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let nickName = parseonName;
+console.log(nickName)
 
 /*******************************************************************************
  Task 3 (Naming variables):
@@ -33,6 +42,8 @@
     2. Declare a variable that stores the age of a user. What name would you choose for this variable?
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let monkieKid ;
+let UserAge ;
 
 /*******************************************************************************
 Task 4 (String Concatenation):
@@ -48,3 +59,17 @@ Steps:
         - Print the final message to the console, including the personName in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+
+let msg;
+msg = prompt("Enter a message for the person:");
+
+if (isHappy)  {
+let isHappy = true;
+
+msg += " And btw, why are you happy?";
+}
+if (isHappy) {
+msg += " And btw, why are you happy?";
+} else {
+msg += " And btw, Good for you. There's nothing to be happy about.";
+}

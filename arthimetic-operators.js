@@ -17,6 +17,13 @@ Task 1:
    6. Set the value of variable e to the sum of variables a, b, c, and d.
    7. Use console.log() to print the value of variable e to the console. (it should result 105.667)
 *******************************************************************************/
+let a,b,c,d,e ;
+a=4+6;
+b=10*5;
+c=17%3;
+d=b-a;
+e=a+b+c+d;
+console.log(e);
 // TODO: ADD YOUR CODE BELOW
 
 /*******************************************************************************
@@ -28,3 +35,34 @@ Task 1:
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+const subtract = 1 - 3; console.log(subtract);
+
+const num1 = 1;
+const num2 = num1 + 2;
+const num3 = num2 + 2;
+const num4 = num4 + 2;
+const final = num1 * num2 * num3* num4;
+console.log(final);
+
+
+let length = 3;
+let width = 5;
+let height = 7;
+let volume = length * width * height;
+console.log(volume);
+
+
+
+let price = 9.99;
+
+let discount = 0.20;
+
+let finalPrice = price - (price * discount);
+
+console.log(finalPrice);
+
+console.log(Math.round(finalPrice));
+
+
+
+
