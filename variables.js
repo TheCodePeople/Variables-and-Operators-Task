@@ -62,5 +62,5 @@ Steps:
 // TODO: ADD YOUR CODE BELOW
 
 let msg = prompt("Enter a message:");
-finalMsg = `${msg}. And btw, Good for you. There's nothing to be happy about.`;
+let finalMsg = msg.concat(". And btw, Good for you. There's nothing to be happy about.");
 console.log(`Dear ${personName}, here's your message: ${finalMsg}`);
