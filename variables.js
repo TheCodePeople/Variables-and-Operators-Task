@@ -20,6 +20,7 @@ personName = "mustafa";
 age = 24;
 isHappy = true;
 console.log(personName, age, isHappy);
+
 /*******************************************************************************
  Task 2 (Reassigning variables):
  
