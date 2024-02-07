@@ -16,23 +16,35 @@
  ********************************************************************************/
 // TODO: ADD YOUR CODE BELOW
 
+let personName = "Zainab";
+let age = 23;
+let isHappy = false;
+console.log(personName, age, "Happy: " + isHappy);
+
+
 /*******************************************************************************
  Task 2 (Reassigning variables):
- 
+
  Steps:
     1. Create a new variable named 'nickName' and assign the value of the 'personName' variable to the 'nickName' variable.
     2. Use console.log o output the value of 'nickName'
  *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
 
+let nickName = personName;
+console.log(nickName);
+
 /*******************************************************************************
  Task 3 (Naming variables):
- 
+
  Steps:
     1. Create a variable with the title of your favorite movie. How would you name such a variable?
     2. Declare a variable that stores the age of a user. What name would you choose for this variable?
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+
+let favoriteMovie = "The Invisible Guest";
+let ageUser = 23;
 
 /*******************************************************************************
 Task 4 (String Concatenation):
@@ -48,3 +60,7 @@ Steps:
         - Print the final message to the console, including the personName in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+
+let msg = prompt("Enter a message:");
+finalMsg = `${msg}. And btw, Good for you. There's nothing to be happy about.`;
+console.log(`Dear ${personName}, here's your message: ${finalMsg}`);
