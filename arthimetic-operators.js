@@ -18,7 +18,20 @@ Task 1:
    7. Use console.log() to print the value of variable e to the console. (it should result 102.000)
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let a = (4 + 6)
+console.log(a)
 
+let b = (10 * 5)
+console.log(b)
+
+let c = (17 % 3)
+console.log(c)
+
+let d = (b - a)
+console.log(d)
+
+let e = (a + b + c + d)
+console.log(e)
 /*******************************************************************************
  Task 2:
    1. Subtract two numbers and log the result to the console.   
@@ -28,3 +41,19 @@ Task 1:
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let subtraction = (10 - 10)
+console.log(subtraction)
+
+let multiplication = (3 * 1 * 5 * 7)
+console.log(multiplication)
+
+let volumeOfRectangularPrism = (3 * 5 * 7)
+console.log(volumeOfRectangularPrism)
+
+let price = 9.99
+let discount = 0.20
+let discountedPrice = (price - discount)
+console.log(discountedPrice.toFixed(3))
+
+let division = (120/20)
+console.log(division.toFixed(3))
