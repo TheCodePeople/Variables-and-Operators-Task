@@ -52,7 +52,7 @@ console.log(a);
 // - Check if num is either less than 5 or greater than 50 using the logical OR operator. Log the result to the console.
 // TODO: ADD YOUR CODE BELOW
 
-let b = num <= 5 || num > + 50;
+let b = num <= 5 || num >= 50;
 console.log(b);
 // - Check if str is either "apple" or "orange" using the logical OR operator. Log the result to the console.
 // TODO: ADD YOUR CODE BELOW
@@ -71,7 +71,7 @@ console.log(e);
 
 // - Check if num is divisible by both 3 and 5 using the logical OR operator. Log the result to the console.
 // TODO: ADD YOUR CODE BELOW
-let f = (num % 3) === 0 || (num % 5) === 5;
+let f = (num % 3) === 0 || (num % 5) === 0;
 console.log(f);
 
 // - Check if str contains the letter "e". Log the result to the console.
