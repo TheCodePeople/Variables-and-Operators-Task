@@ -67,4 +67,3 @@ let finalMsg = `Dear ${msg}. And btw, Why are you happy? `;
 console.log(
   `Dear ${personName.toUpperCase()} ,here's your message: ${finalMsg}  `
 );
-// personNameVALUE=`pe`

@@ -6,35 +6,35 @@ TASK 1:
  // Have fun! // 😃
 ********************************************************************************/
 
-const exp1 = 10 >= 10; // TODO: ADD YOUR EVALUATION HERE -->
+const exp1 = 10 >= 10; // TODO: ADD YOUR EVALUATION HERE -->   true
 
-const exp2 = "dog" == "dog"; // TODO: ADD YOUR EVALUATION HERE -->
+const exp2 = "dog" == "dog"; // TODO: ADD YOUR EVALUATION HERE --> true
 
-const exp3 = true != false; // TODO: ADD YOUR EVALUATION HERE -->
+const exp3 = true != false; // TODO: ADD YOUR EVALUATION HERE -->  false
 
-const exp4 = "10" === 10; // TODO: ADD YOUR EVALUATION HERE -->
+const exp4 = "10" === 10; // TODO: ADD YOUR EVALUATION HERE -->   false
 
-const exp5 = 5 > 4; // TODO: ADD YOUR EVALUATION HERE -->
+const exp5 = 5 > 4; // TODO: ADD YOUR EVALUATION HERE -->  true
 
-const exp6 = null == undefined; // TODO: ADD YOUR EVALUATION HERE -->
+const exp6 = null == undefined; // TODO: ADD YOUR EVALUATION HERE --> true
 
-const exp7 = "true" == true; // TODO: ADD YOUR EVALUATION HERE -->
+const exp7 = "true" == true; // TODO: ADD YOUR EVALUATION HERE -->false
 
-const exp8 = "false" == false; // TODO: ADD YOUR EVALUATION HERE -->
+const exp8 = "false" == false; // TODO: ADD YOUR EVALUATION HERE --> false
 
-const exp9 = NaN === NaN; // TODO: ADD YOUR EVALUATION HERE -->
+const exp9 = NaN === NaN; // TODO: ADD YOUR EVALUATION HERE -->   false
 
-const exp10 = !false || false; // TODO: ADD YOUR EVALUATION HERE -->
+const exp10 = !false || false; // TODO: ADD YOUR EVALUATION HERE -->  true
 
-const exp11 = false && !false; // TODO: ADD YOUR EVALUATION HERE -->
+const exp11 = false && !false; // TODO: ADD YOUR EVALUATION HERE -->   false
 
-const exp12 = "apple" > "pineapple"; // TODO: ADD YOUR EVALUATION HERE -->
+const exp12 = "apple" > "pineapple"; // TODO: ADD YOUR EVALUATION HERE --> false
 
-const exp13 = "2" > "12"; // TODO: ADD YOUR EVALUATION HERE -->
+const exp13 = "2" > "12"; // TODO: ADD YOUR EVALUATION HERE -->  true
 
-const exp14 = undefined == null; // TODO: ADD YOUR EVALUATION HERE -->
+const exp14 = undefined == null; // TODO: ADD YOUR EVALUATION HERE -->    true
 
-const exp15 = undefined === null; // TODO: ADD YOUR EVALUATION HERE -->
+const exp15 = undefined === null; // TODO: ADD YOUR EVALUATION HERE -->    false
 
 /*******************************************************************************
 Task 2:
