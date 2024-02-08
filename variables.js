@@ -29,7 +29,7 @@
  *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
     let nickName = personName;
-    console.log(nickName);
+   console.log(nickName);
 
 /*******************************************************************************
  Task 3 (Naming variables):
@@ -56,6 +56,6 @@ Steps:
         - Print the final message to the console, including the personName in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
-    let msg=prompt("enter a message:")
-    let finalMsg = `${msg} And btw, Why are you happy?`
-    console.log(`Dear ${personName.toUpperCase()}, ${finalMsg}`);
+   let msg=prompt("enter a message:")
+   let finalMsg = `${msg} And btw, Why are you happy?`
+   console.log(`Dear ${personName.toUpperCase()}, ${finalMsg}`);
