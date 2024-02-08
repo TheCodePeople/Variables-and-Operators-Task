@@ -17,7 +17,7 @@
 // TODO: ADD YOUR CODE BELOW
 let personName = "Jae"
 let age = "20"
-let isHappy = True
+let isHappy = true
 
 console.log(personName)
 console.log(age)
@@ -58,3 +58,6 @@ Steps:
         - Print the final message to the console, including the personName in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let msg = prompt ("And btw, Why are you happy?")
+let finalMsg = (`Dear ${personName.toUpperCase()}, here's your message: ${msg} `)
+console.log(finalMsg)
