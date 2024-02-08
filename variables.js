@@ -66,4 +66,4 @@ Steps:
 let msg= prompt("how are you")
 let finalMsg=`${msg} are you happy`
 console.log(finalMsg);
-console.log(` Dear ${personName.toUpperCase}, here your message: ${finalMsg} `)
+console.log(`Dear ${personName.toUpperCase()}, here your message: ${finalMsg}`)
