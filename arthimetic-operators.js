@@ -18,7 +18,12 @@ Task 1:
    7. Use console.log() to print the value of variable e to the console. (it should result 102.000)
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
-
+let a =4+6;
+let b = 10*5;
+let c = 17%3;
+let d = b-a;
+let e = a+b+c+d;
+console.log("the result is" + e);
 /*******************************************************************************
  Task 2:
    1. Subtract two numbers and log the result to the console.   
@@ -28,3 +33,24 @@ Task 1:
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let sub = 10-5
+console.log("Subtract two numbers " + sub)
+let mult = 1*3*5*7
+console.log("Multiply  the values of four odd numbers " + mult)
+let volume = 3*5*7
+console.log("volume of a rectangular prism " + volume)
+let price = 9.99 
+let discount= 0.20
+let discount_price = price * discount
+console.log("the discounted price " + discount_price)
+let div = 7/3
+console.log("nearest integer " + div.toFixed(3))
+
+
+
+
+
+
+
+
+
